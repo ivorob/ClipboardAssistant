@@ -6,4 +6,4 @@ SET (SOURCES
         ${SRC_DIR}/main.cpp
     )
 
-ADD_EXECUTABLE (ClipboardAssistant ${SOURCES})
+ADD_EXECUTABLE (ClipboardAssistant WIN32 ${SOURCES})
